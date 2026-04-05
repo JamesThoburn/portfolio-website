@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { DM_Sans, Poppins, Roboto } from "next/font/google";
+import Navbar from "@/components/Navbar";
 
 const font = DM_Sans({
   subsets: ["latin"],
@@ -25,7 +26,10 @@ export default function RootLayout({
       <body 
         className={`${font.className} antialiased bg-[#ffffff]`}
       >
-        {children}
+        <Navbar />
+        <main className="pt-18">
+          {children}
+        </main>
       </body>
     </html>
   );
