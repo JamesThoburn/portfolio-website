@@ -1,9 +1,10 @@
+import Hero from "@/components/Home/Hero";
 import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
-    <div>
-      home page
+    <div className="max-w-2xl mx-auto">
+      <Hero />
     </div>
   );
 }
