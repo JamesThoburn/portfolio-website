@@ -8,7 +8,7 @@ const links = [
 export default function Navbar() {
   return (
     <header 
-        className="fixed top-1 left-0 right-0 z-50 bg-[rgba(255,255,255,0.9)] max-w-lg 
+        className="fixed top-2 left-2 right-2 z-50 bg-[rgba(255,255,255,0.9)] max-w-lg 
         mx-auto flex items-center justify-between border-gray-200 border-1 rounded-full"
     >
         <Link href="/" className="p-2 flex gap-2 items-center rounded-l-full">

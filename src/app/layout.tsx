@@ -26,7 +26,7 @@ export default function RootLayout({
       <body 
         className={`${font.className} antialiased bg-[#ffffff]`}
       >
-        <Navbar />
+        <Navbar/>
         <main className="pt-18 min-h-screen">
           {children}
         </main>
