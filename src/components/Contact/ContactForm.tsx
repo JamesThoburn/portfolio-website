@@ -35,33 +35,34 @@ export default function ContactForm() {
             className="flex flex-col gap-4 w-full max-w-md mx-auto"
         >
             <h1 className="text-3xl font-bold">Contact Me</h1>
+            <p className="text-md">I'd love to hear from you. If you're interested in working together or have an opportunity to discuss, feel free to reach out.</p>
             <input 
                 name="name" 
                 type="text" 
                 placeholder="Name" 
                 required 
-                className="w-full px-4 py-3 rounded-xl bg-neutral-100 text-neutral-900 placeholder-neutral-400 text-sm outline-none focus:ring-2 focus:ring-neutral-300 transition"
+                className="w-full px-4 py-3 rounded-xl bg-neutral-100 text-neutral-900 placeholder-neutral-400 text-sm outline-none focus:ring-2 focus:ring-neutral-300 transition shadow-xs"
             />
             <input 
                 name="email"
                 type="email"
                 placeholder="Email"
                 required 
-                className="w-full px-4 py-3 rounded-xl bg-neutral-100 text-neutral-900 placeholder-neutral-400 text-sm outline-none focus:ring-2 focus:ring-neutral-300 transition"
+                className="w-full px-4 py-3 rounded-xl bg-neutral-100 text-neutral-900 placeholder-neutral-400 text-sm outline-none focus:ring-2 focus:ring-neutral-300 transition shadow-xs"
             />
             <textarea 
                 name="message"
                 placeholder="Message"
                 required 
                 rows={5}
-                className="w-full px-4 py-3 rounded-xl bg-neutral-100 text-neutral-900 placeholder-neutral-400 text-sm outline-none focus:ring-2 focus:ring-neutral-300 transition resize-none"
+                className="w-full px-4 py-3 rounded-xl bg-neutral-100 text-neutral-900 placeholder-neutral-400 text-sm outline-none focus:ring-2 focus:ring-neutral-300 transition resize-none shadow-xs"
             />
             <button
                 type="submit"
                 disabled={formStatus === "loading"}
-                className="w-full py-3 rounded-xl bg-neutral-900 text-white text-sm font-medium tracking-wide hover:bg-neutral-700 disabled:opacity-50 transition"
+                className="w-full py-3 rounded-xl bg-neutral-900 text-white text-sm font-medium tracking-wide hover:bg-neutral-700 disabled:opacity-50 transition shadow-xs cursor-pointer disabled:cursor-default"
             >
-                {formStatus === "loading" ? "Sending..." : "Send"}
+                {formStatus === "loading" ? "Sending..." : "Send Message"}
             </button>
             {formStatus === "success" && <p>Message sent!</p>}
             {formStatus === "error" && <p>Something went wrong. Try again.</p>}
