@@ -24,7 +24,7 @@ export default function RootLayout({
       lang="en"
     >
       <body 
-        className={`${font.className} antialiased bg-[#ffffff]`}
+        className={`${font.className} antialiased bg-[#ffffff] overflow-y-scroll`}
       >
         <Navbar/>
         <main className="pt-18 min-h-screen">
