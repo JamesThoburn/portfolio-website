@@ -25,10 +25,10 @@ export default function RootLayout({
       lang="en"
     >
       <body 
-        className={`${font.className} antialiased bg-[#ffffff] overflow-y-scroll`}
+        className={`${font.className} antialiased bg-[#fcfcfc] overflow-y-scroll`}
       >
         <Navbar/>
-        <main className="pt-18 min-h-screen">
+        <main className="pt-18 min-h-screen bg-[#ffffff]">
           {children}
         </main>
         <Footer />
