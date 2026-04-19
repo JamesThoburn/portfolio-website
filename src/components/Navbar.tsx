@@ -17,7 +17,7 @@ export default function Navbar() {
 
     return (
         <header
-            className="fixed top-2 left-2 right-2 z-50 bg-[rgba(255,255,255,0.9)] backdrop-blur-sm max-w-lg 
+            className="fixed top-2 left-2 right-2 z-50 bg-[rgba(255,255,255,0.9)] backdrop-blur-sm max-w-lg shadow-md
         mx-auto flex items-center justify-between border-gray-200 border-1 rounded-full"
         >
             <Link href="/" className="p-2 flex gap-2 items-center rounded-l-full">
