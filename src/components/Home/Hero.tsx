@@ -35,13 +35,7 @@ export default function Hero() {
             </ul>
         </div>
         <p>
-            I'm a 2nd year Mathematics student at Durham University with a deep interest in software engineering and data science. I have technical skills in both of these fields and I am currently seeking experience in either area.
-        </p>
-        <p>
-            So far in my studies, I have developed a strong foundation in mathematical concepts, with my focus for 3rd and 4th year being machine learning, data science and statistics.
-        </p>
-        <p>
-            I have also developed my web development skills through personal study, and I am currently focusing my efforts on learning backend technologies, of which will be added to my currently frontend-focused set of technical skills.
+            I'm a 2nd year Mathematics student at Durham University with a strong interest in software engineering and data science. My academic focus for 3rd and 4th year covers machine learning, statistics and data science. Alongside my studies, I've built frontend web development skills through self-study and I am currently expanding into backend technologies. I'm currently seeking internship experience and career opportunities in software engineering or data science.
         </p>
     </section>
   )
