@@ -35,7 +35,7 @@ export default function ContactForm() {
             className="flex flex-col gap-4 w-full max-w-md mx-auto"
         >
             <h1 className="text-3xl font-bold">Contact Me</h1>
-            <p className="text-md">I'd love to hear from you. If you're interested in working together or have an opportunity to discuss, feel free to reach out.</p>
+            <p className="text-md">I&apos;d love to hear from you. If you&apos;re interested in working together or have an opportunity to discuss, feel free to reach out.</p>
             <input 
                 name="name" 
                 type="text" 

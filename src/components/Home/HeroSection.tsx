@@ -13,11 +13,11 @@ const socialLinks = [
     }
 ]
 
-export default function Hero() {
+export default function HeroSection() {
   return (
     <section className="mt-10 flex flex-col gap-4">
         <div className="flex flex-col gap-2">
-            <h1 className="text-4xl font-bold">Hi, I'm James Thoburn.</h1>
+            <h1 className="text-4xl font-bold">Hi, I&apos;m James Thoburn.</h1>
             <h2 className="text-gray-600">Mathematics student at Durham University.</h2>
             <ul className="flex gap-1">
                 {socialLinks.map((social, index) => (
@@ -35,7 +35,7 @@ export default function Hero() {
             </ul>
         </div>
         <p>
-            I'm a 2nd year Mathematics student at Durham University with a strong interest in software engineering and data science. My academic focus for 3rd and 4th year covers machine learning, statistics and data science. Alongside my studies, I've built frontend web development skills through self-study and I am currently expanding into backend technologies. I'm currently seeking internship experience and career opportunities in software engineering or data science.
+            I&apos;m a 2nd year Mathematics student at Durham University with a strong interest in software engineering and data science. My academic focus for 3rd and 4th year covers machine learning, statistics and data science. Alongside my studies, I&apos;ve built frontend web development skills through self-study and I am currently expanding into backend technologies. I&apos;m currently seeking internship experience and career opportunities in software engineering or data science.
         </p>
     </section>
   )
